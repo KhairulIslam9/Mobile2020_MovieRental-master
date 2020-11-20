@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].[GetAllActor]
+AS
+	SELECT * FROM Actor;
+RETURN 0

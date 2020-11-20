@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hld3ATwFO1SedF3+QhrG2fSNkphldvZrp0Dw2DSWxbWFkjEzBJDpRDFcH+HPG7/wXzpBFHWc0lE9Bil8e1DYlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaiis\\Downloads\\Mobile2020_MovieRental-master\\MovieRental.DAL\\MovieRental.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaiis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kaiis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
