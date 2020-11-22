@@ -60,6 +60,8 @@
     <Folder Include="Scripts" />
     <Folder Include="Functions" />
     <Folder Include="Procedures" />
+    <Folder Include="Procedures\Actor" />
+    <Folder Include="Procedures\Category" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -76,6 +78,11 @@
     <Build Include="Functions\MVSF_GetPreHash.sql" />
     <Build Include="Procedures\MVSP_CheckCustomer.sql" />
     <Build Include="Procedures\MVSP_RegisterCustomer.sql" />
+    <Build Include="Procedures\Actor\GetActorByFilm.sql" />
+    <Build Include="Procedures\Actor\GetActorById.sql" />
+    <Build Include="Procedures\Actor\GetActorByInitial.sql" />
+    <Build Include="Procedures\Actor\GetAllActor.sql" />
+    <Build Include="Procedures\Category\GetAllCategory.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

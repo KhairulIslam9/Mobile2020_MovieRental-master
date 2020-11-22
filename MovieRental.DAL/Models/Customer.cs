@@ -23,7 +23,7 @@ namespace MovieRental.DAL.Models
             Email = email;
             Passwd = passwd;
         }
-        public Customer(int id, string lastName, string firstName, string email, string passwd) this :(lastName, firstName, email, passwd)
+        internal Customer(int id, string lastName, string firstName, string email, string passwd): this(lastName, firstName, email, passwd)
         {
             Id = id;
         }

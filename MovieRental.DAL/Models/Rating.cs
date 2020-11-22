@@ -17,7 +17,7 @@ namespace MovieRental.DAL.Models
         {
             Classement = classement;
         }
-        public Rating(int id, string classement) : this(classement)
+        internal Rating(int id, string classement) : this(classement)
         {
             Id = id;
         }

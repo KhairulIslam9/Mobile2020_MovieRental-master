@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MovieRental.DAL.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
+
 
 namespace MovieRental.DAL.Services
 {
@@ -11,7 +13,7 @@ namespace MovieRental.DAL.Services
         TKey Insert(TEntity entity);
 
         // Read
-        TEntity Get(TKey key);
+        TEntity GetById(TKey key);
         IEnumerable<TEntity> GetAll();
 
         // Update

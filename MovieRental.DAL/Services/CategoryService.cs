@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace MovieRental.DAL.Services
 {
-    class Category
+    class CategoryService
     {
     }
 }

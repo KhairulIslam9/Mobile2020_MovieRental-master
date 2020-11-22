@@ -35,7 +35,7 @@ namespace MovieRental.DAL.Models
             this.RemplacementCost = RemplacementCost;
             this.RatingId = RatingId;
         }
-        public Film(int Id, string Title, string Description, int ReleaseYear, int LanguageId, int RentalDuration,
+        internal Film(int Id, string Title, string Description, int ReleaseYear, int LanguageId, int RentalDuration,
             decimal RentalPrice, int Lenght, decimal RemplacementCost, int RatingId):
             this(Title,Description,ReleaseYear,LanguageId,RentalDuration,RentalPrice,Lenght,RemplacementCost,RatingId)
         {

@@ -17,7 +17,7 @@ namespace MovieRental.DAL.Models
         {
             Name = name;
         }
-        public Language(int id, string name) : this(name)
+        internal Language(int id, string name) : this(name)
         {
             Id = id;
         }

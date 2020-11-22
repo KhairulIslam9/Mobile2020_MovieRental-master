@@ -19,7 +19,7 @@ namespace MovieRental.DAL.Models
             this.RentalDate = RentalDate;
             this.CustomerId = CustomerId;
         }
-        public Rental(int Id, DateTime RentalDate, int CustomerId): this(RentalDate,CustomerId)
+        internal Rental(int Id, DateTime RentalDate, int CustomerId): this(RentalDate,CustomerId)
         {
             this.Id = Id;
         }

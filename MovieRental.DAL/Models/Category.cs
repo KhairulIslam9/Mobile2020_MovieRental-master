@@ -17,7 +17,7 @@ namespace MovieRental.DAL.Models
         {
             this.name = name;
         }
-        public Category(int idn, string name) : this(name)
+        internal Category(int idn, string name) : this(name)
         {
             Id = idn;
         }
