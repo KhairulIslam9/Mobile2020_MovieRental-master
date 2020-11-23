@@ -4,10 +4,10 @@ using System.Text;
 
 namespace MovieRental.DAL.Models
 {
-    class Category : IEntity<int>
+    public class Category : IEntity<int>
     {
         public int Id { get; set; }
-        public string name { get;set;}
+        public string Name { get;set;}
 
         public Category()
         {
@@ -15,7 +15,7 @@ namespace MovieRental.DAL.Models
         }
         public Category(string name)
         {
-            this.name = name;
+            this.Name = name;
         }
         internal Category(int idn, string name) : this(name)
         {

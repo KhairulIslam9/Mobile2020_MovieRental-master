@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieRental.DAL.Models
 {
-    class FilmActor
+    public class FilmActor
     {
     }
 }

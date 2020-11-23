@@ -69,6 +69,11 @@ namespace ADOLibrary
             }
         }
 
+        public IEnumerable<T> ExecuteReader<T>(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
         public DataSet GetDataTable(Command cmd)
         {
             using (SqlConnection c = CreateConnection())

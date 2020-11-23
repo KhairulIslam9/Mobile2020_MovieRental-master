@@ -11,8 +11,7 @@ namespace MovieRental.DAL.Services
     {
         private Actor Converter(SqlDataReader reader)
         {
-            return new Actor(
-                
+            return new Actor(              
                 (int)reader["ActorId"],
                 reader["LastName"].ToString(),
                 reader["FirstName"].ToString()
@@ -39,21 +38,28 @@ namespace MovieRental.DAL.Services
             return connection.ExecuteReader<Actor>(cmd, Converter);
         }
 
-        public IEnumerable<Actor> GetByIntial(char first, char last)
+        public IEnumerable<Actor> GetByIntial(char last)
         {
             Command cmd = new Command("GetActorbyInitial", true);
-            cmd.AddParameter("FirstL", first);
             cmd.AddParameter("LastL", last);
 
             return connection.ExecuteReader<Actor>(cmd, Converter);
         }
+
         public override IEnumerable<Actor> GetAll()
         {
             Command cmd = new Command("GetAllActor", true);
+    
 
             return connection.ExecuteReader<Actor>(cmd, Converter);
         }
 
+        
+         public IEnumerable<string> getAllInitial()
+         {
+             Command cmd = new Command("GetAllActorInitial", true);
+             return connection.ExecuteReader<Actor>(cmd, Converter).Select(item => item.FirstName).ToList();
+         }
 
         public override int Insert(Actor entity)
         {

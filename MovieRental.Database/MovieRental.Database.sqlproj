@@ -62,6 +62,7 @@
     <Folder Include="Procedures" />
     <Folder Include="Procedures\Actor" />
     <Folder Include="Procedures\Category" />
+    <Folder Include="Procedures\Film" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -83,6 +84,13 @@
     <Build Include="Procedures\Actor\GetActorByInitial.sql" />
     <Build Include="Procedures\Actor\GetAllActor.sql" />
     <Build Include="Procedures\Category\GetAllCategory.sql" />
+    <Build Include="Procedures\Film\GetAllFilm.sql" />
+    <Build Include="Procedures\Actor\GetAllActorInitial.sql" />
+    <Build Include="Procedures\Film\GetFilmByActor.sql" />
+    <Build Include="Procedures\Film\GetFilmByCategory.sql" />
+    <Build Include="Procedures\Film\GetFilmByKeyWord.sql" />
+    <Build Include="Procedures\Film\GetFilmByLanguage.sql" />
+    <Build Include="Procedures\Film\GetFilmByTitle.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

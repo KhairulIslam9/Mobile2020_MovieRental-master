@@ -60,11 +60,25 @@ namespace MovieRental.API.Controllers
 
         [HttpGet]
         [Route("Initial")]
-        public IActionResult GetByInital(string Initial)
+        public IActionResult GetByInital(char Initial)
         {
             try
             {
-                return Ok(_service.GetByIntial(Initial[0], Initial[1]));
+                return Ok(_service.GetByIntial(Initial));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("AllInitial")]
+        public IActionResult getAllInitial()
+        {
+            try
+            {
+                return Ok(_service.getAllInitial());
             }
             catch (Exception e)
             {

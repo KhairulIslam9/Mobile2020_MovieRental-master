@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MovieRental.DAL.Services
 {
-    class CustomerService
+    public class CustomerService
     {
     }
 }

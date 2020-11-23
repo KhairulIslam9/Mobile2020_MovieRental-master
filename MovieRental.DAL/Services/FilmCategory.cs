@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieRental.DAL.Services
 {
-    class FilmCategory
+    public class FilmCategory
     {
     }
 }
