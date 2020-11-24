@@ -14,11 +14,10 @@ namespace MovieRental.DAL.Services
         private Customer Converter(SqlDataReader reader)
         {
             return new Customer(
-                (int)reader["CustomId"],
+                (int)reader["CustomerId"],
                 reader["LastName"].ToString(),
                 reader["FirstName"].ToString(),
-                reader["Email"].ToString(),
-                reader["Passwd"].ToString()
+                reader["Email"].ToString()     
                 );
         }
         public override bool Delete(int key)
@@ -56,9 +55,8 @@ namespace MovieRental.DAL.Services
             Command cmd = new Command("MVSP_CheckUser", true);
             cmd.AddParameter("Email", email);
             cmd.AddParameter("Passwd", passwd);
-            return connection.ExecuteReader<Customer>(cmd, Converter).FirstOrDefault();
-        }
 
-        
+            return connection.ExecuteReader<Customer>(cmd, Converter).FirstOrDefault();
+        }        
     }
 }
