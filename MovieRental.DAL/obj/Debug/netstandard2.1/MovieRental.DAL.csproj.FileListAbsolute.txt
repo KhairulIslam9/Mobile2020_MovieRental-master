@@ -1,0 +1,12 @@
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\bin\Debug\netstandard2.1\MovieRental.DAL.deps.json
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\bin\Debug\netstandard2.1\MovieRental.DAL.dll
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\bin\Debug\netstandard2.1\MovieRental.DAL.pdb
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\bin\Debug\netstandard2.1\ADOLibrary.dll
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\bin\Debug\netstandard2.1\ADOLibrary.pdb
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.csprojAssemblyReference.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.AssemblyInfoInputs.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.AssemblyInfo.cs
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.csproj.CopyComplete
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.dll
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.DAL\obj\Debug\netstandard2.1\MovieRental.DAL.pdb

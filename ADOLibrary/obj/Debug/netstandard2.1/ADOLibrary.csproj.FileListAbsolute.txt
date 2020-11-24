@@ -1,0 +1,9 @@
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\bin\Debug\netstandard2.1\ADOLibrary.deps.json
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\bin\Debug\netstandard2.1\ADOLibrary.dll
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\bin\Debug\netstandard2.1\ADOLibrary.pdb
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.csprojAssemblyReference.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.AssemblyInfoInputs.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.AssemblyInfo.cs
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.dll
+C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\ADOLibrary\obj\Debug\netstandard2.1\ADOLibrary.pdb
