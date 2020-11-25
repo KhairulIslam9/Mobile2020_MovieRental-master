@@ -64,6 +64,8 @@
     <Folder Include="Procedures\Category" />
     <Folder Include="Procedures\Film" />
     <Folder Include="Procedures\Auth" />
+    <Folder Include="Procedures\Rental" />
+    <Folder Include="Types" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Film.sql" />
@@ -92,6 +94,9 @@
     <Build Include="Procedures\Film\GetFilmByTitle.sql" />
     <Build Include="Procedures\Auth\MVSP_CheckUser.sql" />
     <Build Include="Procedures\Auth\MVSP_RegisterUser.sql" />
+    <Build Include="Procedures\Rental\CreateRental.sql" />
+    <Build Include="Procedures\Rental\GetAllRentalDetailByCustomer.sql" />
+    <Build Include="Types\FilmIds.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MovieRental.Database.publish.xml" />

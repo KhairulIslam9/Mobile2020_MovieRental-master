@@ -4,7 +4,3 @@ C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\bin\
 C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\MovieRental.Database.sqlprojAssemblyReference.cache
 C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\MovieRental.dll
 C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\MovieRental.pdb
-C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\Model.xml
-C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\refactor.xml
-C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\postdeploy.sql
-C:\Users\kaiis\Downloads\Mobile2020_MovieRental-master\MovieRental.Database\obj\Debug\predeploy.sql

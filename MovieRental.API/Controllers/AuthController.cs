@@ -1,15 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MovieRental.API.Models.Forms;
-using MovieRental.API.Models.Intefaces;
 using MovieRental.API.Models.Services;
 using MovieRental.API.Security;
 using MovieRental.DAL.Models;
-using MovieRental.DAL.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace MovieRental.API.Controllers
 {

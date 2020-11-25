@@ -1,0 +1,29 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[CreateRental] (Procédure)
+       [dbo].[GetActorByFilm] (Procédure)
+       [dbo].[GetActorById] (Procédure)
+       [dbo].[GetActorByInitial] (Procédure)
+       [dbo].[GetAllActor] (Procédure)
+       [dbo].[GetAllActorInitial] (Procédure)
+       [dbo].[GetAllCategory] (Procédure)
+       [dbo].[GetAllFilm] (Procédure)
+       [dbo].[GetFilmByActor] (Procédure)
+       [dbo].[GetFilmByCategory] (Procédure)
+       [dbo].[GetFilmByKeyWord] (Procédure)
+       [dbo].[GetFilmByLanguage] (Procédure)
+       [dbo].[GetFilmByTitle] (Procédure)
+       [dbo].[MVSP_CheckUser] (Procédure)
+       [dbo].[MVSP_RegisterUser] (Procédure)
+
+** Actions de support
